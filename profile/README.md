@@ -48,6 +48,14 @@ It connects:
 → **Pipeline**  
 → **Market Learning**
 
+Its market-intelligence core is public:
+**[boro-gtm-core](https://github.com/somosboro/boro-gtm-core)**
+
+Currently implemented there: market intelligence, and contextual scoring across
+market × vertical × ICP × channel × ticket. Later stages of the pipeline are
+designed but not yet implemented. Every score carries separate confidence and
+coverage, and missing evidence lowers coverage rather than being scored as zero.
+
 ### Qué Compro
 
 A consumer product focused on helping people make better food decisions through product evaluation, comparison and nutrition-oriented guidance.
